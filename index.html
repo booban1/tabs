@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="actions.js"></script>
+	<title>Tabs</title>
+</head>
+
+<body>
+	<div class="tab-header">
+		<h1>Get the outcomes of your course</h1>
+	</div>
+	<!-- Tab links -->
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event, 'data-analytics')"  id="defaultOpen">data-analytics</button>
+		<button class="tablinks" onclick="openTab(event, 'data-science')">data-science</button>
+		<button class="tablinks" onclick="openTab(event, 'software-engineering')">software-engineering</button>
+		<button class="tablinks" onclick="openTab(event, 'cyber-security')">cyber-security</button>
+		<button class="tablinks" onclick="openTab(event, 'ux-design')">ux-design</button>
+	
+	</div>
+
+	<!-- Tab content -->
+	
+	<div id="data-analytics" class="tabcontent">
+		<h3  class="tab-content-head">Get the outcomes for your course </h3>
+		<p class="tab-content-content">Since its inception in November 2019, more than 3,600 students have enrolled in our UI/UX Design Career Track. They average a salary increase of $28,229 in their first job after graduation, as reported by students who provided pre- and post-course salaries.</p>
+	</div>
+
+	<div id="data-science" class="tabcontent">
+		<h3  class="tab-content-head">Get the outcomes for your course </h3>
+		<p class="tab-content-content">Since its inception in November 2019, more than 3,600 students have enrolled in our UI/UX Design Career Track. They average a salary increase of $28,229 in their first job after graduation, as reported by students who provided pre- and post-course salaries.</p>
+	</div>
+
+	<div id="software-engineering" class="tabcontent">
+		<h3  class="tab-content-head">Software engineering student outcomes</h3>
+		<p class="tab-content-content">Since its inception in November 2019, more than 3,600 students have enrolled in our UI/UX Design Career Track. They average a salary increase of $28,229 in their first job after graduation, as reported by students who provided pre- and post-course salaries.</p>
+	</div>
+
+	<div id="cyber-security" class="tabcontent">
+		<h3  class="tab-content-head">Cybersecurity student outcomes</h3>
+		<p class="tab-content-content">Since its inception in November 2019, more than 3,600 students have enrolled in our UI/UX Design Career Track. They average a salary increase of $28,229 in their first job after graduation, as reported by students who provided pre- and post-course salaries.</p>
+	</div>
+
+	<div id="ux-design" class="tabcontent">
+		<h3  class="tab-content-head">UX design student outcomes</h3>
+		<p class="tab-content-content">Since its inception in November 2019, more than 3,600 students have enrolled in our UI/UX Design Career Track. They average a salary increase of $28,229 in their first job after graduation, as reported by students who provided pre- and post-course salaries.</p>
+	</div>
+
+	<script>
+		document.getElementById("defaultOpen").click();
+	</script>
+
+</body>
+</html>
